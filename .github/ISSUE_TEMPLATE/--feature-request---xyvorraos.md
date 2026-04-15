@@ -8,18 +8,13 @@ assignees: PixelatedPrelude
 
 ---
 
-**XyvorraOS Version** *(optional)*
-Run `cat /etc/xyvorra-release` if you want to include it.
-- Version:
+**XyvorraOS Version**
 
-**Desktop / Compositor** *(if this is specific to one)*
+**Desktop / Compositor**
 - [ ] Hyprland (Wayland)
 - [ ] KDE Plasma (Wayland)
-- [ ] Sway (Wayland)
-- [ ] Openbox (X11)
-- [ ] All desktops / Not specific
 
-**Device Type** *(if relevant — e.g. laptop power feature)*
+**Device Type**
 - [ ] Desktop
 - [ ] Laptop
 - [ ] All / Not specific
@@ -37,19 +32,13 @@ Run `cat /etc/xyvorra-release` if you want to include it.
 - [ ] Something else
 
 **What's your idea?**
-Describe the feature clearly and simply.
 
 **What problem does it solve?**
-What's frustrating, missing, or clunky right now?
 
-**How do you imagine it working?** *(optional)*
-Describe how you'd use it. Rough ideas, references to other distros, mockup sketches — all welcome.
+**How do you imagine it working?**
 
-**Have you tried any workarounds?** *(optional)*
-How are you currently dealing with this, if at all?
+**Have you tried any workarounds?**
 
-**Screenshots, mockups, or references** *(optional)*
-Drag images here. Seeing what you're picturing helps a lot.
+**Screenshots, mockups, or references**
 
 **Additional Context**
-Any other thoughts or links related to this idea.
