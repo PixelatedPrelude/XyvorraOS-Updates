@@ -146,6 +146,6 @@ Got fan art, mockups, or just a cool idea for what XyvorraOS could look like? He
 
 <br/>
 
-<img src="https://img.shields.io/badge/made%20with-curiosity%20%26%20too%20much%20coffee-7F77DD?style=flat-square">
+<img src="https://img.shields.io/badge/made%20with-curiosity%20%26%20too%20much%20gamersupps-7F77DD?style=flat-square">
 
 </div>
