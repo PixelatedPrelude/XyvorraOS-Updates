@@ -1,0 +1,5 @@
+# AUR packages to install with this update (requires yay).
+# Lines starting with # are ignored.
+#
+# Example:
+# some-aur-package

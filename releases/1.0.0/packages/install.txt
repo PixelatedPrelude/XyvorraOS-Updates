@@ -1,0 +1,5 @@
+# Packages to install with this update (one per line).
+# Lines starting with # are ignored.
+#
+# Example:
+# firefox

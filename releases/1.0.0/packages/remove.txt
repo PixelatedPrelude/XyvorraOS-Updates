@@ -1,0 +1,5 @@
+# Packages to remove with this update (one per line).
+# Lines starting with # are ignored.
+#
+# Example:
+# some-old-package

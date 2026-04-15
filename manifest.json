@@ -3,10 +3,9 @@
   "releases": [
     {
       "version": "1.0.0",
-      "type": "major",
-      "date": "2026-04-12",
-      "summary": "Initial XyvorraOS baseline release",
-      "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/v1.0.0/releases/1.0.0/release.json"
+      "type": "minor",
+      "date": "2026-04-14",
+      "summary": "Initial release"
     }
   ]
 }
