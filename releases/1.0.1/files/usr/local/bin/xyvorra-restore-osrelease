@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+# /usr/local/bin/xyvorra-restore-osrelease
+#
+# Called by /etc/pacman.d/hooks/99-xyvorra-osrelease.hook after any upgrade of
+# the Arch 'filesystem' package to ensure XyvorraOS branding is preserved in
+# /usr/lib/os-release.  The installed version is read from /etc/xyvorra-release
+# so it stays accurate after xyvorra-update bumps the version.
+
+set -euo pipefail
+
+RELEASE_FILE="/etc/xyvorra-release"
+
+# Read the current installed XyvorraOS version.
+if [[ -f "$RELEASE_FILE" ]]; then
+    OS_VER=$(grep -oP 'XYVORRAOS_VERSION="\K[^"]+' "$RELEASE_FILE" 2>/dev/null || echo "unknown")
+else
+    OS_VER="unknown"
+fi
+
+cat > /usr/lib/os-release << OSREL
+NAME="XyvorraOS"
+VERSION="${OS_VER}"
+VERSION_ID="${OS_VER}"
+ID=xyvorraos
+ID_LIKE=arch
+PRETTY_NAME="XyvorraOS ${OS_VER}"
+CPE_NAME="cpe:2.3:o:xyvorraos:xyvorraos:${OS_VER}:*:*:*:*:*:*:*"
+BUILD_ID=rolling
+ANSI_COLOR="38;2;88;36;178"
+HOME_URL="https://github.com/PixelatedPrelude/XyvorraOS-Linux-Distro"
+DOCUMENTATION_URL="https://github.com/PixelatedPrelude/XyvorraOS-Linux-Distro"
+SUPPORT_URL="https://github.com/PixelatedPrelude/XyvorraOS-Linux-Distro/issues"
+BUG_REPORT_URL="https://github.com/PixelatedPrelude/XyvorraOS-Linux-Distro/issues"
+LOGO=xyvorraos
+OSREL
+
+# Ensure /etc/os-release is the canonical symlink (not a leftover regular file).
+ln -sf ../usr/lib/os-release /etc/os-release

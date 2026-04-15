@@ -1,0 +1,14 @@
+NAME="XyvorraOS"
+PRETTY_NAME="XyvorraOS v1.0.1"
+VERSION="1.0.1"
+VERSION_ID="1.0.1"
+ID=xyvorraos
+ID_LIKE=arch
+BUILD_ID=rolling
+CPE_NAME="cpe:2.3:o:xyvorraos:xyvorraos:1.0.1:*:*:*:*:*:*:*"
+ANSI_COLOR="38;2;88;36;178"
+HOME_URL="https://github.com/PixelatedPrelude/XyvorraOS-Linux-Distro"
+DOCUMENTATION_URL="https://github.com/PixelatedPrelude/XyvorraOS-Linux-Distro"
+SUPPORT_URL="https://github.com/PixelatedPrelude/XyvorraOS-Linux-Distro/issues"
+BUG_REPORT_URL="https://github.com/PixelatedPrelude/XyvorraOS-Linux-Distro/issues"
+LOGO=xyvorraos
