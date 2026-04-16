@@ -1,0 +1,11 @@
+{
+  "version": "1.0.1",
+  "date": "2026-04-16",
+  "type": "minor",
+  "summary": "",
+  "payload": {
+    "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/1.0.1/payload.tar.zst",
+    "sha256_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/1.0.1/payload.sha256"
+  },
+  "deleted_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/1.0.1/deleted.txt"
+}

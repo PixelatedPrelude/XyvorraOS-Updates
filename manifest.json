@@ -3,17 +3,10 @@
   "releases": [
     {
       "version": "1.0.1",
-      "type": "patch",
-      "date": "2026-04-15",
-      "summary": "Fix os-release canonical path, add pacman hook and restore script",
-      "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/v1.0.1/releases/1.0.1/release.json"
-    },
-    {
-      "version": "1.0.0",
-      "type": "major",
-      "date": "2026-04-12",
-      "summary": "Initial XyvorraOS baseline release",
-      "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/v1.0.0/releases/1.0.0/release.json"
+      "date": "2026-04-16",
+      "type": "minor",
+      "summary": "",
+      "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/1.0.1/release.json"
     }
   ]
 }
