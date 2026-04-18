@@ -1,9 +1,0 @@
-{
-  "version": "1.0.3",
-  "date": "2026-04-18",
-  "payload": {
-    "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.3/payload.tar.zst",
-    "sha256_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.3/payload.sha256"
-  },
-  "deleted_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.3/deleted.txt"
-}
