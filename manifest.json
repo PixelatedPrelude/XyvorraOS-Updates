@@ -1,6 +1,11 @@
 {
-  "latest": "1.0.1",
+  "latest": "1.0.2",
   "releases": [
+    {
+      "version": "1.0.2",
+      "date": "2026-04-18",
+      "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.2/release.json"
+    },
     {
       "version": "1.0.1",
       "date": "2026-04-18",
