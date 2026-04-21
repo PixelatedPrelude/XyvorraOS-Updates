@@ -1,16 +1,16 @@
 {
   "version": "staging-draft",
   "date": "2026-04-21",
-  "pushed_at": "2026-04-21T04:40:00Z",
+  "pushed_at": "2026-04-21T05:11:09Z",
   "pushed_by": "PixelatedPrelude",
-  "run": "10",
+  "run": "11",
   "type": "staging",
   "summary": "",
   "diff_base": "none",
   "payload": {
     "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/payload.tar.zst",
     "sha256_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/payload.sha256",
-    "sha256": "1376d9ccf6880e6f333b01080116a1840328ad3c3a2d572f53d446e076461019"
+    "sha256": "70827c2d43f7a173a9ba81a84ed2526c06d3b4f2b93016d24cabea55cc557413"
   },
   "deleted_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/deleted.txt"
 }
