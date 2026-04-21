@@ -1,0 +1,16 @@
+{
+  "version": "1.0.2",
+  "date": "2026-04-21",
+  "released_at": "2026-04-21T20:42:51Z",
+  "released_by": "PixelatedPrelude",
+  "type": "patch",
+  "summary": "Three sleep/wake fixes: drives no longer require re-auth on boot, USB storage won't trigger immediate wake from sleep while keyboard/mouse still can, and multi-monitor layout is restored after wake with correct primary monitor and synced clocks.",
+  "diff_base": "v1.0.1",
+  "build_mode": "staging-copy",
+  "payload": {
+    "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.2/payload.tar.zst",
+    "sha256_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.2/payload.sha256",
+    "sha256": "3797c36174bf7234f7512bf0cb7e41bbf4bc00b1064d6e10de234b814c189cf7"
+  },
+  "deleted_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.2/deleted.txt"
+}
