@@ -1,4 +1,12 @@
 {
-"latest": "",
-"releases": []
+  "latest": "1.0.1",
+  "releases": [
+    {
+      "version": "1.0.1",
+      "date": "2026-04-21",
+      "type": "patch",
+      "summary": "Fixed XyvorraOS updater. And Implemented Staging and Testing. This push will push the baseline but all new updates will be smaller as they wont be a baseline push.",
+      "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.1/release.json"
+    }
+  ]
 }

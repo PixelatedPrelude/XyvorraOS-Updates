@@ -1,0 +1,16 @@
+{
+  "version": "1.0.1",
+  "date": "2026-04-21",
+  "released_at": "2026-04-21T05:25:47Z",
+  "released_by": "PixelatedPrelude",
+  "type": "patch",
+  "summary": "Fixed XyvorraOS updater. And Implemented Staging and Testing. This push will push the baseline but all new updates will be smaller as they wont be a baseline push.",
+  "diff_base": "v1.0.0",
+  "build_mode": "staging-copy",
+  "payload": {
+    "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.1/payload.tar.zst",
+    "sha256_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.1/payload.sha256",
+    "sha256": "51c46d8709aed2972d56ed512e6ae17ef79903f231f8289d939daa4d4e0adf18"
+  },
+  "deleted_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/main/Versions/1.0.1/deleted.txt"
+}
