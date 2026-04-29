@@ -7,7 +7,7 @@
   "type": "staging",
   "summary": "",
   "diff_base": "1.0.2",
-  "packages": ["qt6-declarative", "qt6-svg"]
+  "packages": ["qt6-declarative", "qt6-svg"],
   "payload": {
     "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/payload.tar.zst",
     "sha256_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/payload.sha256",
