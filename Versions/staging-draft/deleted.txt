@@ -1,0 +1,2 @@
+usr/share/sddm/themes/XyLog/assets/background.jpg
+usr/share/sddm/themes/XyLog/assets/fonts/Orbitron-Regular.ttf
