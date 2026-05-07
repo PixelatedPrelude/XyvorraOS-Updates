@@ -2,8 +2,8 @@
   "latest": "staging-draft",
   "releases": [],
   "staging_draft": {
-    "date": "2026-04-29",
-    "run": "19",
+    "date": "2026-05-07",
+    "run": "20",
     "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/release.json"
   }
 }
