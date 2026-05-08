@@ -1,26 +1,32 @@
 {
   "version": "staging-draft",
-  "date": "2026-05-07",
-  "pushed_at": "2026-05-07T02:34:42Z",
+  "date": "2026-05-08",
+  "pushed_at": "2026-05-08T19:52:00Z",
   "pushed_by": "PixelatedPrelude",
-  "run": "24",
+  "run": "25",
   "type": "staging",
   "summary": "",
   "diff_base": "1.0.2",
   "payload": {
     "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/payload.tar.zst",
     "sha256_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/payload.sha256",
-    "sha256": "74a4193bdfa6305976a2942dd2c9e45305c9e63c37a3d356434583c2afc62178"
+    "sha256": "b96566af7aea8da1e18d925555f02efa3e8c68b011bc1a3fc3410110dd6cbf59"
   },
   "packages": [
+    "bluez-utils",
+    "cpupower",
     "cryptsetup",
     "ddcutil",
     "kde-cli-tools",
+    "pacman-contrib",
     "pciutils",
+    "power-profiles-daemon",
     "python-dbus",
     "python-gobject",
     "qt5-quickcontrols2",
     "qt6-quickcontrols2",
+    "smartmontools",
+    "ttf-exo-2",
     "ttf-exo2",
     "ufw"
   ],

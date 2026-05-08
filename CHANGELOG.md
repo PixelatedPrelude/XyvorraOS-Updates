@@ -1,5 +1,9 @@
 # XyvorraOS Changelog
 
+
+## 1.0.3
+Added Xy Command Center — a full-featured system settings app accessible from the app launcher. Covers display, audio, network, firewall, storage, power, Bluetooth, appearance, wallpaper, users, updates, and more. Settings daemon (xysettingsd) runs as a privileged D-Bus service so the GUI never needs root. Wallpaper changes apply live to KDE Plasma. XyvorraOS wallpapers now ship with the OS and appear in the Featured section of the wallpaper picker.
+
 ## 1.0.2
 Improved staging update pipeline to send only changed files rather than a full payload. Added per-version changelog displayed to users before applying updates. Fixed xyvorra-update.conf being overwritten by OTA updates.
 
