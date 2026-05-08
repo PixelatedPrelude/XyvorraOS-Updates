@@ -1,16 +1,16 @@
 {
   "version": "staging-draft",
   "date": "2026-05-08",
-  "pushed_at": "2026-05-08T20:02:28Z",
+  "pushed_at": "2026-05-08T20:34:10Z",
   "pushed_by": "PixelatedPrelude",
-  "run": "26",
+  "run": "27",
   "type": "staging",
-  "summary": "",
+  "summary": "Linux 7.0 kernel upgrade + OTA upgrade_packages support",
   "diff_base": "1.0.2",
   "payload": {
     "url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/payload.tar.zst",
     "sha256_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/payload.sha256",
-    "sha256": "a9513f1f9dea6a36bd84232c9956501b1c11a25b129fb5dc841567c1fdcba41b"
+    "sha256": "28d2d54fd6f88ec4ee4e8f3d43a7c0840d8abdbc48b5fb97dd44661c6b177ea3"
   },
   "packages": [
     "bluez-utils",
@@ -18,6 +18,7 @@
     "cryptsetup",
     "ddcutil",
     "kde-cli-tools",
+    "linux-headers",
     "pacman-contrib",
     "pciutils",
     "power-profiles-daemon",
@@ -25,6 +26,10 @@
     "python-gobject",
     "smartmontools",
     "ufw"
+  ],
+  "upgrade_packages": [
+    "linux",
+    "linux-headers"
   ],
   "deleted_url": "https://raw.githubusercontent.com/PixelatedPrelude/XyvorraOS-Updates/staging/Versions/staging-draft/deleted.txt"
 }

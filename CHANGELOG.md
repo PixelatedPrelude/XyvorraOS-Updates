@@ -1,6 +1,9 @@
 # XyvorraOS Changelog
 
 
+## 1.0.4
+Upgraded to Linux kernel 7.0. xyvorra-update now automatically upgrades the kernel on existing machines via pacman and regenerates the GRUB configuration if needed. Added linux-headers package for DKMS module compatibility.
+
 ## 1.0.3
 Added Xy Command Center — a full-featured system settings app accessible from the app launcher. Covers display, audio, network, firewall, storage, power, Bluetooth, appearance, wallpaper, users, updates, and more. Settings daemon (xysettingsd) runs as a privileged D-Bus service so the GUI never needs root. Wallpaper changes apply live to KDE Plasma. XyvorraOS wallpapers now ship with the OS and appear in the Featured section of the wallpaper picker.
 
